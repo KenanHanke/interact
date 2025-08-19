@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "interact"
+version = "0.0.1"
+authors = [{ name = "Kenan Hanke", email = "k.git.info@gmail.com" }]
+description = "A wrapper around pyautogui, xdotool, and more"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = ["pyautogui", "opencv-python", "watchdog", "pyperclip"]
+
+[project.urls]
+Homepage = "https://github.com/KenanHanke/interact"
+Issues = "https://github.com/KenanHanke/interact/issues"
